@@ -15,11 +15,17 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
 
 /* styles heading */
-h1,
+h1 {
+    margin-bottom: 0;
+    border: 5px solid #9b0000;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #5b0101;
+}
 h3 {
   margin-bottom: 0;
 }
@@ -27,7 +33,7 @@ h3 {
 /* styles paragraph */
 p {
     line-height: 1.5;
-    margin: 0;
+  
 }
 
 /* styles play again class */
@@ -48,9 +54,11 @@ p {
 
 /* styles box class */
 .box {
-  border: 1px solid #dedede;
+  border: 3px solid #9b0000;
+  border-radius: 5px;
+  background-color: #5b0101;
   display: inline-block;
-  font-size: 30px;
-  margin: 20px;
+  font-size: 30px ;
+    margin: 20px;
   padding: 10px;
 }
